@@ -1,7 +1,9 @@
 # String Cast Benchmarks for Golang
 
-While coding Go I commonly find the need to []byte(string) or string([]byte).
-These simple benchmarks demystify the performance impacts of using these operations in your code.
+While coding Go I commonly find the need to do []byte(string) or string([]byte).
+
+
+These simple benchmarks demystify the performance impacts of using those operations in your code.
 
 
 ## Usage
