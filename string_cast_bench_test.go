@@ -58,7 +58,7 @@ func BenchmarkTestStringByteLen100(b *testing.B) {
 }
 
 func BenchmarkTestStringByteLen1000(b *testing.B) {
-	benchmarkStringByte(b, byt100)
+	benchmarkStringByte(b, byt1000)
 }
 
 func BenchmarkTestByteStringLen10(b *testing.B) {
